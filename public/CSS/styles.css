@@ -1,0 +1,44 @@
+body {
+    margin: 0px 0px;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.taskbar {
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+}
+
+.taskbar .taskbar-links {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.taskbar .taskbar-links li{
+    list-style: none;
+    padding: 15px 55px;
+}
+
+.taskbar .taskbar-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+#a-1 {
+    font-size: 40px;
+}
+
+#a-2 {
+    font-size: 20px;
+    margin: auto;
+}
+
+#a-3 {
+    font-size: 30px;
+    color: aqua;
+}
