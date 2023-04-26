@@ -16,6 +16,11 @@ app.get("/women", (req, res) => {
     res.sendFile(path.join(__dirname, "../view/women.html"));
 });
 
+// Mens shirt section
+app.get("/men/shirt", (req, res) => {
+    res.sendFile(path.join(__dirname, "../view/men_shirt.html"));
+});
+
 // The mens clothes section
 app.get("/men", (req, res) => {
     res.sendFile(path.join(__dirname, "../view/men.html"));
