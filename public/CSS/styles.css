@@ -68,3 +68,26 @@ body {
     text-align: center;
 }
 
+.catalog{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 28%;
+    left: 38%;
+}
+
+.catalog .item {
+    border: solid 5px white;
+    margin: 13px 0px;
+    padding: 10px 117px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.catalog button:hover{
+    border: solid 5px black;
+    background-color: white;
+    color: black;
+}
