@@ -1,9 +1,25 @@
-body {
-    margin: 0px 0px;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-h1 {
-    color: blueviolet;
+body {
+    background-image: url('/images/background.jpg');
+    height: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    color : black;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    letter-spacing: 3px;
 }
 
 .taskbar {
@@ -42,3 +58,13 @@ h1 {
     font-size: 30px;
     color: aqua;
 }
+
+.ending {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100vw;
+    background-color: grey;
+    text-align: center;
+}
+
